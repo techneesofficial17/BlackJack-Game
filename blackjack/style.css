@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Ubuntu;
+}
+#made {
+  position: absolute;
+  right: 10px;
+  opacity: 30%;
+  cursor: pointer;
+}
+
+.title {
+  background: lightgreen;
+  border-top: 2px solid green;
+  border-bottom: 1px solid #000;
+  font-weight: bold;
+}
+.blackjack-main {
+  background: lightgray;
+}
+#resultText {
+  background: lightgray;
+  width: 100%;
+  height: 100%;
+}
+.blackjack-row-1 {
+  background: red;
+  display: flex;
+  height: 385px;
+  flex: 1;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.your-box {
+  background: linear-gradient(45deg, darkgreen, rgb(12, 161, 12));
+
+  width: 50%;
+  border-right: 2px solid black;
+}
+.dealer-box {
+  background: linear-gradient(-45deg, rgb(2, 158, 2), green);
+  width: 50%;
+}
+.your-box img {
+  padding: 10px 15px;
+  width: 18%;
+}
+
+.dealer-box img {
+  padding: 10px 15px;
+  width: 18%;
+}
+.titleText {
+  padding: 10px;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+.wontext {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.btns-row {
+  background: darkgreen;
+  padding: 10px;
+  text-align: center;
+}
+.tableRow {
+  background: lightgreen;
+  border: 2px solid darkgreen;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table,
+th,
+td {
+  background: lightgreen;
+
+  border: 2px solid black;
+  padding: 4px 15px;
+  text-align: center;
+}
+td span {
+  font-weight: bold;
+  color: royalblue;
+}
